@@ -1,0 +1,88 @@
+@import "functions";
+
+//Custom variable
+$main-color 				: #29ae9b;
+$putih 						: #FFFFFF;
+$putih-line					: #F1F1F1;
+$hitam						: #58585a;
+$grey-text					: #8a8a8a;
+$grey-line					: #dce0e0;
+$grey-input					: #d1d1d1;
+$coffee						: #5f5148;
+$light-coffee				: #7d6a5e;
+$shadow-card				: 1px 1px 3px rgba(0,0,0,.15);
+
+// Body
+$body-bg					: $putih !default;
+$text-color					: $hitam !default;
+$link-color					: $putih !default;
+
+// // Border
+// $laravel-border-color	: darken($body-bg, 10%);
+// $list-group-border		: $laravel-border-color;
+// $panel-default-border	: $laravel-border-color;
+// $panel-inner-border		: $laravel-border-color;
+
+// Brands
+$brand-primary			: $main-color;
+$brand-info				: #79CCCD;
+$brand-success			: #2ab27b;
+$brand-warning			: #ff941c;
+$brand-danger			: #ff5a5f;
+
+// Dropdown
+$dropdown-bg			: $main-color !default;
+$dropdown-border		: $dropdown-bg !default;
+
+// Navbar
+$navbar-default-color	: $putih !default;
+$navbar-default-bg		: $hitam !default;
+$navbar-default-border	: $navbar-default-bg;
+
+// Navbar links
+$navbar-default-link-color			: set-text-color($navbar-default-bg) !default;
+// $navbar-default-link-hover-color	: $navbar-default-link-color !default;
+$navbar-default-link-hover-color	: $main-color !default;
+// $navbar-default-link-hover-bg		: $brand-danger !default;
+$navbar-default-link-hover-bg		: rgba(0, 0, 0, 0.1) !default;
+// $navbar-default-link-active-color	: set-text-color($navbar-default-bg) !default;
+$navbar-default-link-active-color	: $main-color !default;
+// $navbar-default-link-active-bg		: $navbar-default-link-hover-bg  !default;
+$navbar-default-link-active-bg		: $navbar-default-link-hover-bg  !default;
+$navbar-default-link-disabled-color	: #ccc !default;
+$navbar-default-link-disabled-bg	: transparent !default;
+
+
+// // Typography
+$icon-font-path			: "~bootstrap-sass/assets/fonts/bootstrap/";
+$fa-font-path			: "~font-awesome/fonts/";
+$font-family-sans-serif	: "Lato","Titillium Web","Raleway", sans-serif;
+$font-size-base			: 14px;
+$line-height-base		: 1.6;
+
+// Buttons
+$btn-default-color		: $text-color;
+$btn-primary-border		: $brand-primary !default;
+$btn-success-border		: $brand-success !default;
+$btn-info-border		: $brand-info !default;
+$btn-warning-border		: $brand-warning !default;
+$btn-danger-border		: $brand-danger !default;
+
+// Inputs
+$input-bg				: $putih !default;
+$input-border			: $input-bg !default;
+$input-border-focus		: lighten($brand-primary, 25%);
+$input-color-placeholder: lighten($hitam, 25%);
+
+// Panels
+$panel-default-heading-bg : $putih;
+
+// Components
+$border-radius-base		: 0px !default;
+$border-radius-large	: 0px !default;
+$border-radius-small	: 0px !default;
+
+// // Links
+$link-hover-color		: none !default;
+$link-hover-decoration	: none !default;
+

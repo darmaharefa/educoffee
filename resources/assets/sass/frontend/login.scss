@@ -1,0 +1,24 @@
+@import "../core";
+
+.section-register {
+	.panel-primary-header{
+
+	}
+
+	.panel-primary-body{
+		margin-top: 15px;
+		input {
+			border-bottom: 1px solid $grey-input;
+		}
+
+		input:focus {
+			border: 0px;
+			box-shadow: none;
+			border-bottom: 1px solid $main-color;
+		}
+
+		a {
+			color: $main-color;
+		}
+	}
+}

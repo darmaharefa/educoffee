@@ -1,0 +1,21 @@
+// Fonts
+@import url(https://fonts.googleapis.com/css?family=Raleway:300,400,600);
+@import url(https://fonts.googleapis.com/css?family=Titillium+Web:200,200i,300,400,700);
+@import url(https://fonts.googleapis.com/css?family=Lato:100,300,400,500;700);
+
+
+// Variables
+@import "variables";
+
+// Custom Functions
+@import "functions";
+
+// Bootstrap
+@import "node_modules/bootstrap-sass/assets/stylesheets/bootstrap";
+
+// Fontawesome
+@import "node_modules/font-awesome/scss/font-awesome";
+
+// Static Style
+@import "static";
+

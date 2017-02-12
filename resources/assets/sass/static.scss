@@ -1,0 +1,249 @@
+body {
+	font-weight : 300;
+}
+
+.row {
+	margin-left: 0px;
+	margin-right: 0px;
+}
+
+h3 {
+	margin-top: 11px;
+}
+
+.no-padding {
+	padding: 0px;
+}
+
+.dropdown:hover .dropdown-menu {
+    display: block;
+    margin-top: 0;
+}
+
+.media-fa {
+	.media-fa-left {
+		display: table-cell;
+	}
+}
+
+// Panel Stylesheet Start
+.panel-primary {
+	background: $putih;
+	color: $hitam;
+	box-shadow: 0 1px 3px 0 #dce0e0;
+	margin: 10px 0px 20px 0px;
+  border: 1px solid $grey-line;
+
+	.panel-primary-header{
+		border-top: 5px solid $main-color;
+		border-bottom: 1px solid $grey-line;
+		padding: 15px 0px;
+		text-align: center;
+		font-size: 17px;
+		font-weight: 500;
+	}
+
+	.panel-primary-body{
+		padding: 15px;
+	}
+}
+
+.panel-product {
+	background: $putih;
+	color: $hitam;
+	box-shadow: 0 1px 5px rgba(0,0,0,0.1);
+	margin: 10px 0px 20px 0px;
+
+	.panel-product-header{
+		border-top: 5px solid $main-color;
+		border-bottom: 1px solid $grey-line;
+		padding: 15px 0px;
+		text-align: center;
+		font-size: 17px;
+		font-weight: 500;
+	}
+
+	.panel-product-body{
+
+	}
+}
+
+.panel-product-2 {
+	color: $hitam;
+	margin: 10px 0px 20px 0px;
+	.panel-product-2-header{
+		border-top: 5px solid $main-color;
+		// border-bottom: 1px solid $grey-line;
+		// box-shadow: 0 1px 5px rgba(0,0,0,0.1);
+    box-shadow: 0 5px 1px rgba(0, 0, 0, 0.2);
+		background: $putih;
+		padding: 15px 0px;
+		text-align: center;
+		font-size: 17px;
+		font-weight: 500;
+	}
+
+	.panel-product-2-body{
+
+	}
+}
+
+.panel-header-link {
+  text-align: right;
+  a {
+    color: $main-color;
+    font-size: 14px;
+  }
+}
+
+.panel-header-title {
+  text-align: left;
+}
+
+.panel-card{
+  margin-bottom: 25px;
+  .panel-card-header{
+    .panel-title {
+      font-size: 25px;
+      font-weight: bold;
+      color: inherit;
+      margin: 20px 0px;
+    }
+  }
+  .panel-card-body{
+    color: $hitam;
+    background: $putih;
+    padding: 15px;
+    border: 0px;
+    border-radius: 4px;
+    box-shadow: 1px 1px 3px rgba(0,0,0,.15);
+  }
+
+}
+
+// Panel Stylesheet End
+
+
+.left-label {
+	text-align: left;
+}
+
+
+.hvr-grow-shadow {
+  vertical-align: middle;
+  -webkit-transform: perspective(1px) translateZ(0);
+  transform: perspective(1px) translateZ(0);
+  box-shadow: 0 0 1px transparent;
+  -webkit-transition-duration: 0.3s;
+  transition-duration: 0.3s;
+  -webkit-transition-property: box-shadow, transform;
+  transition-property: box-shadow, transform;
+}
+
+.hvr-grow-shadow:hover, .hvr-grow-shadow:focus, .hvr-grow-shadow:active {
+  box-shadow: 10px 10px 10px $grey-line;
+  -webkit-transform: scale(1.1);
+  transform: scale(1.1);
+}
+
+
+.hvr-overline-from-left {
+  vertical-align: middle;
+  -webkit-transform: perspective(1px) translateZ(0);
+  transform: perspective(1px) translateZ(0);
+  box-shadow: 0 0 1px transparent;
+  position: relative;
+  overflow: hidden;
+}
+.hvr-overline-from-left:before {
+  content: "";
+  position: absolute;
+  z-index: -1;
+  left: 0;
+  right: 100%;
+  top: 0;
+  background: #2098D1;
+  height: 4px;
+  -webkit-transition-property: right;
+  transition-property: right;
+  -webkit-transition-duration: 0.3s;
+  transition-duration: 0.3s;
+  -webkit-transition-timing-function: ease-out;
+  transition-timing-function: ease-out;
+}
+.hvr-overline-from-left:hover:before, .hvr-overline-from-left:focus:before, .hvr-overline-from-left:active:before {
+  right: 0;
+}
+
+
+.hvr-overline-reveal {
+  vertical-align: middle;
+  -webkit-transform: perspective(1px) translateZ(0);
+  transform: perspective(1px) translateZ(0);
+  box-shadow: 0 0 1px transparent;
+  position: relative;
+  overflow: hidden;
+}
+.hvr-overline-reveal:before {
+  content: "";
+  position: absolute;
+  z-index: -1;
+  left: 0;
+  right: 0;
+  top: 0;
+  background: #2098D1;
+  height: 4px;
+  -webkit-transform: translateY(-4px);
+  transform: translateY(-4px);
+  -webkit-transition-property: transform;
+  transition-property: transform;
+  -webkit-transition-duration: 0.3s;
+  transition-duration: 0.3s;
+  -webkit-transition-timing-function: ease-out;
+  transition-timing-function: ease-out;
+}
+.hvr-overline-reveal:hover:before, .hvr-overline-reveal:focus:before, .hvr-overline-reveal:active:before {
+  -webkit-transform: translateY(0);
+  transform: translateY(0);
+}
+
+.hvr-float-shadow {
+  vertical-align: middle;
+  -webkit-transform: perspective(1px) translateZ(0);
+  transform: perspective(1px) translateZ(0);
+  box-shadow: 0 0 1px transparent;
+  position: relative;
+  -webkit-transition-duration: 0.3s;
+  transition-duration: 0.3s;
+  -webkit-transition-property: transform;
+  transition-property: transform;
+}
+.hvr-float-shadow:before {
+  pointer-events: none;
+  position: absolute;
+  z-index: -1;
+  content: '';
+  top: 100%;
+  left: 5%;
+  height: 10px;
+  width: 90%;
+  opacity: 0;
+  background: -webkit-radial-gradient(center, ellipse, rgba(0, 0, 0, 0.35) 0%, transparent 80%);
+  background: radial-gradient(ellipse at center, rgba(0, 0, 0, 0.35) 0%, transparent 80%);
+  /* W3C */
+  -webkit-transition-duration: 0.3s;
+  transition-duration: 0.3s;
+  -webkit-transition-property: transform, opacity;
+  transition-property: transform, opacity;
+}
+.hvr-float-shadow:hover, .hvr-float-shadow:focus, .hvr-float-shadow:active {
+  -webkit-transform: translateY(-5px);
+  transform: translateY(-5px);
+  /* move the element up by 5px */
+}
+.hvr-float-shadow:hover:before, .hvr-float-shadow:focus:before, .hvr-float-shadow:active:before {
+  opacity: 1;
+  -webkit-transform: translateY(5px);
+  transform: translateY(5px);
+  /* move the element down by 5px (it will stay in place because it's attached to the element that also moves up 5px) */
+}

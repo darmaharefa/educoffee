@@ -1,0 +1,154 @@
+@import "../core";
+
+body {
+	background: #edeff0;
+}
+
+.section-details-coffee{
+	margin: 25px 0px;
+	.details-slide {
+		background: $putih;
+		border: 0px;
+		box-shadow: $shadow-card;
+		border-radius: 4px;
+		margin-bottom: 50px;
+		.details-slide-header{
+
+		}
+		.details-slide-body{
+		  	display: inline-block;
+
+			ul.thumbnails-carousel {
+				padding: 5px 0 0 0;
+				margin: 0;
+				list-style-type: none;
+				text-align: center;
+			}
+			ul.thumbnails-carousel .center {
+				display: inline-block;
+			}
+			ul.thumbnails-carousel li {
+				/*margin-right: 5px;*/
+				float: left;
+				cursor: pointer;
+			}
+			
+			ul.thumbnails-carousel li {
+				/*margin-right: 5px;*/
+				float: left;
+				cursor: pointer;	
+			}
+
+			ul.thumbnails-carousel li img{
+				width: 100%;
+			}
+
+			.controls-background-reset {
+				background: none !important;
+			}
+			.active-thumbnail {
+				opacity: 0.4;
+			}
+			.indicators-fix {
+				bottom: 70px;
+			}
+
+			.carousel-control.left, .carousel-control.right  {
+				background: #fff;
+			}
+		}
+	}
+
+	.details-deskripsi {
+		h4 {
+			margin: 20px 0px;
+		    text-transform: uppercase;
+		    font-weight: bold;
+		    color: $grey-text;
+		}
+	}
+
+	.details-pembelian{
+		.panel-card-body{
+			.sub-title {
+				font-size: 15px;
+			}
+
+			.coffee-title {
+				font-size: 20px;
+				text-align: center;
+				margin: 10px 0px;
+			}
+
+			.coffee-brew{
+				margin: 10px 0px;
+				.dropdown-brew {
+				width: 100%;
+					a  {
+						padding: 10px;
+					}
+				}
+			}
+
+			.coffee-harga {
+				margin: 15px 0px;
+				.price-new{
+					font-size: 18px;
+				}
+				.price-old{
+					font-size: 14px;
+					color: $grey-text;
+					text-decoration: line-through;
+				}
+				.btn-count{
+					width: 30%;
+				}
+				.count-pembelian {
+					display: inline-block;
+					margin: 0px 15px;
+				}
+			}
+
+			.coffee-button {
+				margin: 10px 0px;
+			}
+		}
+	}
+
+	.details-related{
+		.panel-title{
+			font-size: 25px;
+		    font-weight: bold;
+		    color: inherit;
+		    margin: 20px 0px;
+		}
+		.related-list{
+			.related-card {
+				background: $putih;
+				margin: 10px 0px;
+				.related-images{
+					width: 30%;
+					display: inline-block;
+					img {
+						width: 100%
+					}
+				}
+				.related-caption{
+					width: 60%;
+				    display: inline-block;
+				    color: $hitam;
+				    padding: 15px;
+					.caption-title {
+						display: block;
+					    font-size: 20px;
+					    font-weight: bold;
+					}
+					.caption-price {
+						color: $brand-danger;
+					}
+				}
+			}
+		}
+	}
+}
+
