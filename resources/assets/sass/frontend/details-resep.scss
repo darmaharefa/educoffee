@@ -1,0 +1,93 @@
+@import "../core";
+@import "./component/panel-default-header";
+@import "./component/static-component";
+@import "./component/card-default";
+
+.section-details-resep {
+	
+	.details-resep-header, .details-resep-title,
+	.details-resep-image, .details-resep-social{
+		margin: 20px 0px;
+	}
+
+	.details-resep-header{
+		
+	}
+
+	.details-resep-title{
+		.resep-title-name{
+			font-size: 25px;
+			font-weight: bold;
+			.title-date{
+				font-size: 12px;
+				color: $grey-text;
+			}
+		}
+		.resep-title-creator{
+			a{
+				color: $main-color;
+			}
+		}
+		.resep-fork{
+			padding: 15px 0px;
+			display: flex;
+			justify-content: flex-end;
+			button{
+
+			}
+		}
+	}
+
+	.details-resep-image{
+		.resep-image{
+			display: flex;
+			justify-content: center;
+			img {
+				width: 100%
+			}
+		}
+	}
+
+	.details-resep-social{
+		.resep-social-count{
+			text-align: left;
+			span{
+				margin-right: 15px;
+			}
+		}
+
+		.resep-social-share{
+			text-align: right;
+			span {
+				margin-right: 15px;
+			}
+			a {
+				color: $hitam;
+			}
+		}
+	}
+
+	.details-resep-deskripsi{
+
+	}
+
+	.details-resep-bahan{
+		.card-default {
+			a {
+				color: $brand-success;
+			}
+		}
+	}
+
+	.details-resep-alat{
+
+	}
+
+	.details-resep-cara{
+
+	}
+
+	.details-resep-komentar{
+
+	}
+}

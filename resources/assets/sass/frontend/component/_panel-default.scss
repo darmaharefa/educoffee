@@ -1,0 +1,26 @@
+.panel-default{
+	.panel-default-header {
+		font-size: 17px;	
+		text-align: center;
+		background: $putih;
+		padding: 15px 0px;
+		border-top: 5px solid $main-color;
+    	box-shadow: 0 5px 1px rgba(0, 0, 0, 0.2);
+
+    	.panel-header-link {
+		  text-align: right;
+		  a {
+		    color: $main-color;
+		    font-size: 14px;
+		  }
+		}
+
+		.panel-header-title {
+		  text-align: left;
+		}
+	}
+
+	.panel-default-body{
+		margin-bottom: 20px;
+	}
+}

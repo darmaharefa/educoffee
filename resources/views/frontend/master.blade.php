@@ -8,12 +8,14 @@
 		<link rel="stylesheet" href="/css/mightyslider.css">
 	</head>
 	<body >
+
+		@include('frontend.component.header')
+
+		@include('frontend.component.navbar')
 			
 		@yield('content', '')
-		
-		@yield('scripts')
 
-		@yield('foot_code', '')
+		@include('frontend.component.footer')
 		
 		{{-- <script src="/js/app.js"></script> --}}
 		<script src="/js/jquery.min.js"></script>

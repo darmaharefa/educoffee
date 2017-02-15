@@ -1395,7 +1395,7 @@ body {
   font-size: 14px;
   line-height: 1.6;
   color: #58585a;
-  background-color: #FFFFFF;
+  background-color: #edeff0;
 }
 
 input,
@@ -1444,7 +1444,7 @@ img {
 .img-thumbnail {
   padding: 4px;
   line-height: 1.6;
-  background-color: #FFFFFF;
+  background-color: #edeff0;
   border: 1px solid #ddd;
   border-radius: 0px;
   -webkit-transition: all 0.2s ease-in-out;
@@ -3041,7 +3041,7 @@ th {
 }
 
 .table .table {
-  background-color: #FFFFFF;
+  background-color: #edeff0;
 }
 
 .table-condensed > thead > tr > th,
@@ -5113,7 +5113,7 @@ tbody.collapse.in {
 .nav-tabs > li.active > a:hover,
 .nav-tabs > li.active > a:focus {
   color: #555555;
-  background-color: #FFFFFF;
+  background-color: #edeff0;
   border: 1px solid #ddd;
   border-bottom-color: transparent;
   cursor: default;
@@ -5214,7 +5214,7 @@ tbody.collapse.in {
   .nav-tabs.nav-justified > .active > a:hover,
   .nav-tabs-justified > .active > a:focus,
   .nav-tabs.nav-justified > .active > a:focus {
-    border-bottom-color: #FFFFFF;
+    border-bottom-color: #edeff0;
   }
 }
 
@@ -6277,7 +6277,7 @@ a.badge:focus {
   padding: 4px;
   margin-bottom: 22px;
   line-height: 1.6;
-  background-color: #FFFFFF;
+  background-color: #edeff0;
   border: 1px solid #ddd;
   border-radius: 0px;
   -webkit-transition: border 0.2s ease-in-out;
@@ -11431,17 +11431,43 @@ h3 {
   font-weight: 500;
 }
 
-.panel-header-link {
-  text-align: right;
+.panel-card {
+  margin-bottom: 25px;
 }
 
-.panel-header-link a {
-  color: #29ae9b;
-  font-size: 14px;
+.panel-card .panel-card-header .panel-title {
+  font-size: 25px;
+  font-weight: bold;
+  color: inherit;
+  margin: 20px 0px;
 }
 
-.panel-header-title {
-  text-align: left;
+.panel-card .panel-card-body {
+  color: #58585a;
+  background: #FFFFFF;
+  padding: 15px;
+  border: 0px;
+  border-radius: 4px;
+  box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.15);
+}
+
+.flex-direction-coloumn {
+  display: -webkit-box !important;
+  display: -ms-flexbox !important;
+  display: flex !important;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.flex-justify-between {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
 }
 
 .left-label {
@@ -11593,6 +11619,222 @@ h3 {
   -webkit-transform: translateY(5px);
   transform: translateY(5px);
   /* move the element down by 5px (it will stay in place because it's attached to the element that also moves up 5px) */
+}
+
+.panel-title-clean {
+  font-size: 25px;
+  font-weight: bold;
+  color: inherit;
+  margin: 20px 0px;
+}
+
+.panel-title-bigmid {
+  margin-top: 50px;
+  margin-bottom: 25px;
+  font-size: 30px;
+  text-align: center;
+}
+
+.price-new {
+  color: #ff5a5f;
+}
+
+.section-header {
+  background-color: #29ae9b;
+  padding: 15px 0px 10px 0px;
+}
+
+.section-header .nav-logo {
+  text-align: center;
+}
+
+.section-header .nav-logo a img {
+  height: 60px;
+}
+
+.section-header .nav-search {
+  margin-top: 12px;
+}
+
+.section-header .nav-search .form-control {
+  border: none;
+}
+
+.section-header .nav-login .nav-login-dropdown .dropdown-profile {
+  list-style: none;
+  border: 1px solid #FFFFFF;
+  padding: 5px;
+  text-align: center;
+}
+
+.section-header .nav-login .nav-login-dropdown .dropdown-profile .fa {
+  margin-left: 5px;
+}
+
+.section-header .nav-login .nav-login-dropdown .dropdown-menu {
+  border: 1px solid #29ae9b;
+}
+
+.section-header .nav-login .nav-login-dropdown .dropdown-menu li {
+  background: #FFFFFF;
+  padding: 5px 10px;
+  border: 1px solid #29ae9b;
+  margin: 5px 10px;
+}
+
+.section-header .nav-login .nav-login-dropdown .dropdown-menu li:hover {
+  background: #ff5a5f;
+  cursor: pointer;
+}
+
+.section-header .nav-login .nav-login-dropdown .dropdown-menu li:hover a {
+  color: #FFFFFF;
+}
+
+.section-header .nav-login .nav-login-dropdown .dropdown-menu a {
+  font-size: 12px;
+  color: #29ae9b;
+  margin-left: 5px;
+}
+
+.section-header .nav-login .nav-login-dropdown .dropdown-menu a .fa {
+  margin-right: 10px;
+  font-size: 15px;
+}
+
+.section-header .nav-cart {
+  font-size: 15px;
+  margin-top: 20px;
+  text-align: center;
+}
+
+.section-header .nav-cart .fa {
+  font-size: 30px;
+  color: #ff941c;
+}
+
+.section-menu {
+  background-color: #58585a;
+}
+
+.section-menu nav {
+  margin-bottom: 0px !important;
+}
+
+.section-menu nav li {
+  border-right: 1px solid gray;
+}
+
+.section-menu nav .submenu {
+  width: 700px;
+}
+
+.section-menu nav .submenu .row {
+  margin-left: 0px;
+  margin-right: 0px;
+}
+
+.section-menu nav .submenu .row .media-fa {
+  padding: 20px;
+}
+
+.section-menu nav .submenu .row .fa {
+  font-size: 50px;
+}
+
+.section-menu nav .submenu .row .submenu-label {
+  display: table-cell;
+  vertical-align: middle;
+  padding-left: 10px;
+}
+
+.section-footer {
+  background: #58585a;
+  color: #FFFFFF;
+  margin-top: 70px;
+}
+
+.section-footer .social-media-footer {
+  text-align: center;
+}
+
+.section-footer .social-media-footer .social-icon {
+  margin: 20px 0px;
+}
+
+.section-footer .social-media-footer .social-icon ul li {
+  list-style-type: none;
+  display: inline-block;
+  margin: 0px 30px;
+  font-size: 35px;
+}
+
+.section-footer .menu-footer {
+  background: #58585a;
+}
+
+.section-footer .menu-footer .menu-footer-list {
+  margin: 20px 0px;
+  border-top: 3px solid #dce0e0;
+  border-bottom: 3px solid #dce0e0;
+  text-align: center;
+}
+
+.section-footer .menu-footer .menu-footer-list ul li {
+  list-style-type: none;
+  display: inline-block;
+  margin: 10px 20px;
+  font-size: 20px;
+}
+
+.section-footer .newsletter-footer {
+  background: #29ae9b;
+  padding: 10px 0px;
+}
+
+.section-footer .newsletter-footer .newsletter-input {
+  text-align: center;
+  padding: 20px 0px;
+}
+
+.section-footer .newsletter-footer .newsletter-input .newsletter-heading {
+  font-size: 30px;
+}
+
+.section-footer .newsletter-footer .newsletter-input .newsletter-text {
+  font-size: 14px;
+}
+
+.section-footer .newsletter-footer .newsletter-input input {
+  width: 60%;
+  margin: 0 auto;
+  margin-top: 10px;
+}
+
+.section-footer .newsletter-footer .newsletter-buttom {
+  text-align: center;
+  padding-bottom: 20px;
+}
+
+.section-footer .newsletter-footer .newsletter-buttom button {
+  background: #58585a;
+  width: 60%;
+}
+
+.section-footer .copyright-footer {
+  background: #58585a;
+  color: #FFFFFF;
+  padding: 25px 0px;
+}
+
+.section-footer .copyright-footer .copyright-brand {
+  text-align: left;
+  font-size: 20px;
+}
+
+.section-footer .copyright-footer .copyright-text {
+  text-align: right;
+  font-size: 15px;
 }
 
 .section-register .panel-primary-body {

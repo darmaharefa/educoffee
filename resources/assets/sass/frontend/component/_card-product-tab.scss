@@ -1,0 +1,47 @@
+.product-col-tab {
+	padding: 0px;
+	background: $putih;
+	border: 1px solid $grey-line;
+	border-top: 0px;
+	.inner-product-col-tab{
+		color: $putih;
+		a {
+			.image {
+				margin: 0px;
+			}
+		}
+
+		.caption{
+			text-align: center;
+			margin: 15px 0px;
+
+			.voucher-title {
+				
+			}
+
+			.price-disc{
+				display: block;
+				width: 50%;
+				background: $brand-success;
+				margin: 0 auto;
+				padding: 5px 10px;
+				border-radius: 8px;
+				color: $putih;
+				font-size: 16px;
+				margin-bottom: 10px;
+			}
+
+			.price-new{
+				display: block;
+				font-size:18px;
+				margin-bottom: 10px;
+			}
+			.price-old{
+				display: block;
+				font-size:15px;
+				color:$grey-line;
+				text-decoration: line-through;
+			}
+		}
+	}
+}

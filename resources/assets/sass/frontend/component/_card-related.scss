@@ -1,0 +1,25 @@
+.card-related {
+	background: $putih;
+	margin: 10px 0px;
+	.card-related-images{
+		width: 30%;
+		display: inline-block;
+		img {
+			width: 100%
+		}
+	}
+	.card-related-caption{
+		width: 60%;
+	    display: inline-block;
+	    color: $hitam;
+	    padding: 15px;
+		.caption-title {
+			display: block;
+		    font-size: 20px;
+		    font-weight: bold;
+		}
+		.caption-price {
+			color: $brand-danger;
+		}
+	}
+}

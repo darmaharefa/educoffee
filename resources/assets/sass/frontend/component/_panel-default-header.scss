@@ -1,0 +1,15 @@
+.panel-default-header{
+	margin: 30px 0px 10px 0px;
+	h3 {
+		font-size: 16px;
+		margin: 0px !important;
+	}
+	color: $hitam;
+	text-align: center;
+	background: $putih;
+	text-transform: uppercase;
+	padding: 20px 0px;
+	border-top: 5px solid $main-color;
+	box-shadow: 0 5px 1px rgba(0, 0, 0, 0.2);
+}
+

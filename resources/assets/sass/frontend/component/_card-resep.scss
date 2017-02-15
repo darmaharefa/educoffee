@@ -1,0 +1,40 @@
+.card-resep {
+	background: $putih;
+	margin: 10px 0px;
+	border-left: 10px solid $brand-warning;
+	box-shadow: 0 1px 1px rgba(0, 0, 0, 0.3);
+
+	a{
+		text-decoration: none;
+		color: $hitam;
+	}
+
+	img {
+		width: 100%;
+		padding: 10px;
+	}
+
+	.resep-title, .resep-brew{
+		display: block;
+	}
+
+	.resep-title{
+		font-size: 16px;
+		font-weight: 700;
+		padding: 20px 0px 10px 0px;
+	}
+
+	.resep-brew{
+		padding:0px;
+	}
+
+	.resep-social-icon{
+		color: $main-color;
+		font-size: 15px;
+		padding-top: 10px;
+		span{
+			padding-right: 15px;
+		}
+	}
+
+}

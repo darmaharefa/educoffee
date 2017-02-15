@@ -16,7 +16,7 @@
 				<div class="col-md-7">	
 					<div class="details-slide">
 						<div class="row">
-							<div class="col-md-8 col-md-offset-2">
+							<div class="col-md-12">
 								<div class="row">
 									<div class="details-slide-header">
 										<div class="col-md-12">
@@ -112,9 +112,9 @@
 
 												<div class="col-md-12">
 													<div class="dropdown">
-													  <button class="btn btn-default btn-block dropdown-toggle" type="button" id="dropdownMenu1" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">
+													  <button class="btn btn-default btn-block dropdown-toggle flex-justify-between" type="button" id="dropdownMenu1" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">
 													   PILIH BREW METHOD
-													    <span class="caret"></span>
+													    <i class="fa fa-sort-down"></i>
 													  </button>
 													  <ul class="dropdown-menu dropdown-brew" aria-labelledby="dropdownMenu1">
 													    <li><a href="#">DRIP</a></li>
@@ -134,9 +134,11 @@
 												</div>
 												<div class="col-md-12">
 													<div class="row">
-														<div class="col-md-7">
-															<span class="price-old">Rp.1.000.000</span>
-															<span class="price-new">Rp. 500.000</span>
+														<div class="col-md-7 flex-direction-coloumn">
+															<div class="harga-count-pembelian">
+																<span class="price-new">Rp.500.000</span>
+																<span class="price-old">Rp.1.000.000</span>
+															</div>
 														</div>
 														<div class="col-md-5">
 															<div class="btn-count-pembelian">
@@ -169,11 +171,11 @@
 					<div class="details-core">
 						<div class="row">
 							<div class="col-sm-12">
-								<div class="panel-primary">
-									<div class="panel-primary-header">
+								<div class="panel-card">
+									<div class="panel-card-header">
 										<h3 class="panel-title">Details</h3>
 									</div>
-									<div class="panel-primary-body">
+									<div class="panel-card-body">
 										<div class="core-details">
 											<table>
 												<tr>
@@ -240,18 +242,16 @@
 			{{-- Baris Related Resep Start --}}
 			<div class="row">
 				<div class="col-md-12">
-					<div class="resep-coffee-header">
-						<div class="row">
-							<h3 class="panel-title">Resep</h4>
-						</div>
+					<div class="panel-default-header">
+						<h3>Resep</h3>
 					</div>
 					<div class="resep-coffee-list">
 						<div class="row">
 							{{-- List Resep Start --}}
 							<div class="col-md-6">
-								<div class="list-resep hvr-float-shadow">
+								<div class="card-resep hvr-float-shadow">
 									<div class="row">
-										<a href="">
+										<a href="/details-resep">
 											<div class="col-md-4">
 												<div class="resep-image">
 													<img src="/images/coffee/example9.jpg">
@@ -279,12 +279,12 @@
 							</div>
 
 							<div class="col-md-6">
-								<div class="list-resep hvr-float-shadow">
+								<div class="card-resep hvr-float-shadow">
 									<div class="row">
 										<a href="">
 											<div class="col-md-4">
 												<div class="resep-image">
-													<img src="/images/coffee/example1.jpg">
+													<img src="/images/coffee/example9.jpg">
 												</div>
 											</div>
 											<div class="col-md-8">
@@ -321,22 +321,14 @@
       	<div class="row">
       		<div class="col-md-12">
 	      		{{-- Produk Kopi Terbaru --}}
-		        <div class="panel-product-2">
-		            <div class="panel-product-2-header">
-		               <div class="row">
-		                   <div class="col-md-6">
-		                      <div class="panel-header-title">
-		                           Related items
-		                      </div>
-		                   </div>
-		                   <div class="col-md-6">
-		                       <div class="panel-header-link">
-		                           <a href="">Lihat semua</a>
-		                       </div>
-		                   </div>
-		               </div>
+		        <div class="panel-default">
+		            <div class="panel-default-header">
+                        <div class="panel-header-title">Related Kopi</div>
+                        <div class="panel-header-link">
+                             <a href="">Lihat semua</a>
+                        </div>
 		            </div>
-		            <div class="panel-product-2-body">
+		            <div class="panel-default-body">
 		                <div class="row">
 		                    {{-- Baris Tanpa Discount --}}
 		                    <div class="col-md-3">

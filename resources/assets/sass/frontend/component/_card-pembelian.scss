@@ -1,0 +1,39 @@
+.details-pembelian{
+	.panel-card-body{
+		.coffee-title {
+			font-size: 20px;
+			text-align: center;
+			font-weight: bold;
+			margin: 10px 0px;
+		}
+		.coffee-harga {
+			margin: 15px 0px;
+			.harga-count-pembelian{
+				display: flex;
+				flex-direction: column;
+				.price-new{
+					font-size: 18px;
+				}
+				.price-old{
+					font-size: 14px;
+					color: $grey-text;
+					text-decoration: line-through;
+				}
+			}
+			.btn-count-pembelian{
+				display: flex;
+				justify-content: space-between;
+				
+				.btn-count{
+					width: 30%;
+				}
+				.count-pembelian {
+					padding: 5px;
+				}
+			}
+		}
+		.coffee-button {
+			margin: 10px 0px;
+		}
+	}
+}

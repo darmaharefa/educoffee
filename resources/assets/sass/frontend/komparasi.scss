@@ -1,0 +1,73 @@
+@import "../core";
+@import "./component/static-component";
+@import "./component/panel-default-header";
+
+.section-komparasi {
+	
+	.section-komparasi-header{
+		margin-top: 30px;
+	}
+
+	.section-komparasi-kopi{
+		margin-top: 30px;
+		.komparasi-kopi-title{
+			padding: 20px;
+		    background: white;
+		    margin: 10px 0px;
+		    font-size: 16px;
+		    font-weight: bold;
+		    input {
+		    	border-bottom: 1px solid $main-color;
+		    }
+		    input[placeholder] {
+		    	font-weight: 300;
+		    }
+		}
+
+		.komparasi-kopi-tambah{
+			padding: 20px;
+			margin: 10px 0px;
+		}
+	}	
+
+	.section-komparasi-body{
+		.core-komparasi{
+			background: $putih;
+			padding: 10px;
+			text-align: right;
+			ul {
+				padding: 0px;
+				li{
+					font-size: 16px;
+					font-weight: bold; 
+					padding: 10px;
+					text-transform: uppercase;
+					list-style-type: none;
+					border-bottom: 1px solid $putih-line;
+
+				}
+			}
+		}
+
+		.value-komparasi{
+			background: $putih;
+			padding: 10px;
+			text-align: left;
+			ul {
+				padding: 0px;
+				li{
+					font-size: 16px; 
+					padding: 10px;
+					list-style-type: none;
+					border-bottom: 1px solid $putih-line;
+
+				}
+			}
+		}
+	}
+
+	.komparasi-kopi-title, .core-komparasi, .value-komparasi {
+		border-radius: 4px;
+		box-shadow: 0 1px 1px rgba(0, 0, 0, 0.3);
+	}
+}

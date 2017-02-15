@@ -30,3 +30,11 @@ Route::get('/details-coffee', function(){
 Route::get('/details-mesin', function(){
 	return view('frontend.pages.detailsMesin');
 });
+
+Route::get('/komparasi', function(){
+	return view('frontend.pages.komparasi');
+});
+
+Route::get('/details-resep', function(){
+	return view('frontend.pages.detailsResep');
+});

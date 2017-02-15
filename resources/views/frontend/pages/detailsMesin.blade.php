@@ -16,7 +16,7 @@
 				<div class="col-md-7">	
 					<div class="details-slide">
 						<div class="row">
-							<div class="col-md-8 col-md-offset-2">
+							<div class="col-md-12">
 								<div class="row">
 									<div class="details-slide-header">
 										<div class="col-md-12">
@@ -99,7 +99,6 @@
 
 				{{-- Detail Kanan Start --}}
 				<div class="col-md-5">
-
 					<div class="details-pembelian">
 						<div class="row">
 							<div class="col-sm-12">
@@ -108,7 +107,6 @@
 										<h3 class="panel-title">Lakukan Pembelian</h4>									
 									</div>
 									<div class="panel-card-body">
-
 										<div class="coffee-title">
 											<div class="row">
 												<div class="col-md-12">
@@ -125,11 +123,13 @@
 												<div class="col-md-12">
 													<div class="row">
 														<div class="col-md-7">
-															<span class="price-old">Rp.5000.000</span>
-															<span class="price-new">Rp.250.000</span>
+															<div class="harga-count-pembelian flex-column">
+																<span class="price-new">Rp.250.000</span>
+																<span class="price-old">Rp.500.000</span>
+															</div>
 														</div>
 														<div class="col-md-5">
-															<div class="btn-count-pembelian">
+															<div class="btn-count-pembelian flex-between">
 																<button type="button" class="btn btn-primary btn-count">-</button>
 																<div class="count-pembelian">1</div>
 																<button type="button" class="btn btn-primary btn-count">+</button>
@@ -159,26 +159,26 @@
 					<div class="details-related">
 						<div class="row">
 							<div class="col-md-12">
-								<h4 class="panel-title">Related Mesin Kopi</h4>
-								<div class="related-list">
-									<div class="related-card">
+								<h4 class="panel-title-clean">Related Mesin Kopi</h4>
+								<div class="card-related-list">
+									<div class="card-related">
 										<a href="">
-											<div class="related-images">
+											<div class="card-related-images">
 												<img src="/images/coffee/example9.jpg" alt="">
 											</div>
-											<div class="related-caption">
+											<div class="card-related-caption">
 												<span class="caption-title">Aeropress Filter</span>
 												<span class="caption-price">Rp. 250.000</span>
 											</div>
 										</a>
 									</div>
 
-									<div class="related-card">
+									<div class="card-related">
 										<a href="">
-											<div class="related-images">
+											<div class="card-related-images">
 												<img src="/images/coffee/example9.jpg" alt="">
 											</div>
-											<div class="related-caption">
+											<div class="card-related-caption">
 												<span class="caption-title">Aeropress Filter</span>
 												<span class="caption-price">Rp. 250.000</span>
 											</div>

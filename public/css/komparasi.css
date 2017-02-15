@@ -11748,164 +11748,6 @@ h3 {
   padding-left: 10px;
 }
 
-.panel-default-header {
-  margin: 30px 0px 10px 0px;
-  color: #58585a;
-  text-align: center;
-  background: #FFFFFF;
-  text-transform: uppercase;
-  padding: 20px 0px;
-  border-top: 5px solid #29ae9b;
-  box-shadow: 0 5px 1px rgba(0, 0, 0, 0.2);
-}
-
-.panel-default-header h3 {
-  font-size: 16px;
-  margin: 0px !important;
-}
-
-.panel-default-body {
-  margin-bottom: 20px;
-}
-
-.product-col {
-  padding: 0px;
-  background: #FFFFFF;
-  border-radius: 4px;
-  margin: 10px 0px;
-  box-shadow: 0 1px 1px rgba(0, 0, 0, 0.3);
-}
-
-.product-col .inner-product-col {
-  color: #58585a;
-}
-
-.product-col .inner-product-col a .overlayhover {
-  -webkit-transition: 0.3s ease;
-  transition: 0.3s ease;
-  position: absolute;
-  font-size: 42px;
-  margin: 34% 35%;
-  opacity: 0 !important;
-}
-
-.product-col .inner-product-col a .image {
-  margin: 0px;
-}
-
-.product-col .inner-product-col a .image:hover {
-  -webkit-transition: 0.3s ease;
-  transition: 0.3s ease;
-  opacity: 0.5;
-}
-
-.product-col .inner-product-col a .image:hover .overlayhover {
-  -webkit-transition: 0.3s ease;
-  transition: 0.3s ease;
-  opacity: 1 !important;
-}
-
-.product-col .inner-product-col a .price-disc {
-  position: absolute;
-  top: 10%;
-  left: 10%;
-  border-radius: 100%;
-  background: #2ab27b;
-  padding: 15px;
-  color: white;
-  text-align: center;
-  font-size: 20px;
-}
-
-.product-col .inner-product-col a .price-disc sup {
-  font-size: 12px;
-}
-
-.product-col .inner-product-col .caption {
-  text-align: center;
-  margin: 5px 0px;
-}
-
-.product-col .inner-product-col .caption .voucher-title {
-  font-weight: bold;
-  text-transform: uppercase;
-}
-
-.product-col .inner-product-col .caption .price-new {
-  font-size: 18px;
-}
-
-.product-col .inner-product-col .caption .price-old {
-  font-size: 15px;
-  color: #dce0e0;
-  text-decoration: line-through;
-}
-
-.product-col .inner-product-col .btn-beli {
-  margin: 10px;
-  text-align: center;
-}
-
-.product-col .inner-product-col .btn-beli button {
-  width: 50%;
-  padding: 7px 0px;
-  color: #FFFFFF;
-  background: #2ab27b;
-  border-radius: 4px;
-  margin: 10px;
-}
-
-.product-col .inner-product-col .btn-beli button:hover {
-  -webkit-transition: 0.3s ease;
-  transition: 0.3s ease;
-  background: #2fc789;
-}
-
-.product-col-tab {
-  padding: 0px;
-  background: #FFFFFF;
-  border: 1px solid #dce0e0;
-  border-top: 0px;
-}
-
-.product-col-tab .inner-product-col-tab {
-  color: #FFFFFF;
-}
-
-.product-col-tab .inner-product-col-tab a .image {
-  margin: 0px;
-}
-
-.product-col-tab .inner-product-col-tab .caption {
-  text-align: center;
-  margin: 15px 0px;
-}
-
-.product-col-tab .inner-product-col-tab .caption .price-disc {
-  display: block;
-  width: 50%;
-  background: #2ab27b;
-  margin: 0 auto;
-  padding: 5px 10px;
-  border-radius: 8px;
-  color: #FFFFFF;
-  font-size: 16px;
-  margin-bottom: 10px;
-}
-
-.product-col-tab .inner-product-col-tab .caption .price-new {
-  display: block;
-  font-size: 18px;
-  margin-bottom: 10px;
-}
-
-.product-col-tab .inner-product-col-tab .caption .price-old {
-  display: block;
-  font-size: 15px;
-  color: #dce0e0;
-  text-decoration: line-through;
-}
-
 .section-footer {
   background: #58585a;
   color: #FFFFFF;
@@ -11995,75 +11837,90 @@ h3 {
   font-size: 15px;
 }
 
-.section-slider img {
-  width: 100%;
-}
-
-.section-new-product .panel-default-header {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
-}
-
-.section-new-product .panel-default-header .panel-header-title {
-  padding: 0px 15px;
-  font-size: 16px;
-}
-
-.section-new-product .panel-default-header .panel-header-link {
-  padding: 0px 15px;
-}
-
-.section-new-product .panel-default-header .panel-header-link a {
-  color: #29ae9b;
-}
-
-.section-new-product .panel-default-body {
-  margin-bottom: 50px;
-}
-
-.section-promo .panel-product-body .product-col {
-  padding: 0px;
-  background: #FFFFFF;
-}
-
-.section-promo .panel-product-body .product-col .inner-product-col {
+.panel-default-header {
+  margin: 30px 0px 10px 0px;
   color: #58585a;
-}
-
-.section-promo .panel-product-body .product-col .inner-product-col a .image {
-  margin: 0px;
-}
-
-.section-promo .panel-product-body .product-col .inner-product-col .caption {
   text-align: center;
-  margin: 5px 0px;
+  background: #FFFFFF;
+  text-transform: uppercase;
+  padding: 20px 0px;
+  border-top: 5px solid #29ae9b;
+  box-shadow: 0 5px 1px rgba(0, 0, 0, 0.2);
 }
 
-.section-promo .panel-product-body .product-col .inner-product-col .caption .price-disc {
-  display: block;
-  width: 50%;
-  background: #2ab27b;
-  margin: 0 auto;
-  padding: 5px 10px;
-  border-radius: 8px;
-  color: #FFFFFF;
+.panel-default-header h3 {
   font-size: 16px;
-  margin-bottom: 10px;
+  margin: 0px !important;
 }
 
-.section-promo .panel-product-body .product-col .inner-product-col .caption .price-new {
-  display: block;
-  font-size: 18px;
-  margin-bottom: 10px;
+.section-komparasi .section-komparasi-header {
+  margin-top: 30px;
 }
 
-.section-promo .panel-product-body .product-col .inner-product-col .caption .price-old {
-  display: block;
-  font-size: 15px;
-  color: #dce0e0;
-  text-decoration: line-through;
+.section-komparasi .section-komparasi-kopi {
+  margin-top: 30px;
+}
+
+.section-komparasi .section-komparasi-kopi .komparasi-kopi-title {
+  padding: 20px;
+  background: white;
+  margin: 10px 0px;
+  font-size: 16px;
+  font-weight: bold;
+}
+
+.section-komparasi .section-komparasi-kopi .komparasi-kopi-title input {
+  border-bottom: 1px solid #29ae9b;
+}
+
+.section-komparasi .section-komparasi-kopi .komparasi-kopi-title input[placeholder] {
+  font-weight: 300;
+}
+
+.section-komparasi .section-komparasi-kopi .komparasi-kopi-tambah {
+  padding: 20px;
+  margin: 10px 0px;
+}
+
+.section-komparasi .section-komparasi-body .core-komparasi {
+  background: #FFFFFF;
+  padding: 10px;
+  text-align: right;
+}
+
+.section-komparasi .section-komparasi-body .core-komparasi ul {
+  padding: 0px;
+}
+
+.section-komparasi .section-komparasi-body .core-komparasi ul li {
+  font-size: 16px;
+  font-weight: bold;
+  padding: 10px;
+  text-transform: uppercase;
+  list-style-type: none;
+  border-bottom: 1px solid #F1F1F1;
+}
+
+.section-komparasi .section-komparasi-body .value-komparasi {
+  background: #FFFFFF;
+  padding: 10px;
+  text-align: left;
+}
+
+.section-komparasi .section-komparasi-body .value-komparasi ul {
+  padding: 0px;
+}
+
+.section-komparasi .section-komparasi-body .value-komparasi ul li {
+  font-size: 16px;
+  padding: 10px;
+  list-style-type: none;
+  border-bottom: 1px solid #F1F1F1;
+}
+
+.section-komparasi .komparasi-kopi-title,
+.section-komparasi .core-komparasi,
+.section-komparasi .value-komparasi {
+  border-radius: 4px;
+  box-shadow: 0 1px 1px rgba(0, 0, 0, 0.3);
 }

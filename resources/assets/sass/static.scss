@@ -73,8 +73,6 @@ h3 {
 	margin: 10px 0px 20px 0px;
 	.panel-product-2-header{
 		border-top: 5px solid $main-color;
-		// border-bottom: 1px solid $grey-line;
-		// box-shadow: 0 1px 5px rgba(0,0,0,0.1);
     box-shadow: 0 5px 1px rgba(0, 0, 0, 0.2);
 		background: $putih;
 		padding: 15px 0px;
@@ -86,18 +84,6 @@ h3 {
 	.panel-product-2-body{
 
 	}
-}
-
-.panel-header-link {
-  text-align: right;
-  a {
-    color: $main-color;
-    font-size: 14px;
-  }
-}
-
-.panel-header-title {
-  text-align: left;
 }
 
 .panel-card{
@@ -122,6 +108,20 @@ h3 {
 }
 
 // Panel Stylesheet End
+
+//Flex Stylesheet
+
+.flex-direction-coloumn {
+  display: flex !important;
+  flex-direction: column;
+}
+.flex-justify-between {
+  display: flex;
+    justify-content: space-between;
+
+}
+
+//Flex Stylesheet End
 
 
 .left-label {
@@ -246,4 +246,28 @@ h3 {
   -webkit-transform: translateY(5px);
   transform: translateY(5px);
   /* move the element down by 5px (it will stay in place because it's attached to the element that also moves up 5px) */
+}
+
+// ===========================================================
+
+.panel-title-clean{
+  font-size: 25px;
+  font-weight: bold;
+  color: inherit;
+  margin: 20px 0px;
+}
+
+.panel-title-bigmid {
+  margin-top: 50px;
+  margin-bottom: 25px;
+  font-size: 30px;
+  text-align: center;
+}
+
+.panel-title-card {
+  
+}
+
+.price-new{
+  color: $brand-danger;
 }

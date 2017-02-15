@@ -1,0 +1,75 @@
+.section-header {
+	background-color : $main-color;
+	padding: 15px 0px 10px 0px;
+
+	.nav-logo {
+			text-align: center;
+			a{
+				img{
+					height: 60px;
+				}
+			}
+		}
+
+	.nav-search {
+		margin-top: 12px;
+		.form-control {
+			border: none;
+		}
+	}
+
+	.nav-login{
+		.nav-login-dropdown {
+			.dropdown-profile {
+				list-style: none;
+				border: 1px solid $putih;
+				padding: 5px;
+				text-align: center;
+				.fa {
+					margin-left: 5px;
+				}
+			}
+
+			// Custom Dropdown Style
+			.dropdown-menu{
+				border: 1px solid $main-color;
+				li {
+					background: $putih;
+					padding: 5px 10px;
+					border: 1px solid $main-color;
+					margin: 5px 10px;
+				}
+
+				li:hover {
+					background: $brand-danger;
+					cursor: pointer;
+				}
+
+				li:hover a{
+					color: $putih;
+				}
+
+				a {
+					font-size: 12px;
+					color: $main-color;
+					margin-left: 5px;
+					.fa{
+						margin-right: 10px;
+						font-size: 15px;
+					}
+				}
+			}
+
+		}
+	}
+
+	.nav-cart{
+		font-size: 15px;
+		margin-top: 20px;
+		text-align: center;
+		.fa{
+			font-size: 30px;
+			color: $brand-warning;
+		}
+	}
+}
