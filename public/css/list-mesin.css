@@ -11639,22 +11639,6 @@ h3 {
   color: #ff5a5f;
 }
 
-.panel-default-header {
-  margin: 30px 0px 10px 0px;
-  color: #58585a;
-  text-align: center;
-  background: #FFFFFF;
-  text-transform: uppercase;
-  padding: 20px 0px;
-  border-top: 5px solid #29ae9b;
-  box-shadow: 0 5px 1px rgba(0, 0, 0, 0.2);
-}
-
-.panel-default-header h3 {
-  font-size: 16px;
-  margin: 0px !important;
-}
-
 .section-header {
   background-color: #29ae9b;
   padding: 15px 0px 10px 0px;
@@ -11853,79 +11837,116 @@ h3 {
   font-size: 15px;
 }
 
-.card-default {
-  color: #58585a;
-  background: #FFFFFF;
-  padding: 10px 15px;
-  margin: 10px 0px;
-  border-radius: 4px;
-  box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.15);
-}
-
-.section-details-resep .details-resep-header,
-.section-details-resep .details-resep-title,
-.section-details-resep .details-resep-image,
-.section-details-resep .details-resep-social {
+.panel-sorting {
+  padding: 10px 0px;
   margin: 20px 0px;
+  border-bottom: 1px solid #dce0e0;
 }
 
-.section-details-resep .details-resep-title .resep-title-name {
-  font-size: 25px;
-  font-weight: bold;
-}
-
-.section-details-resep .details-resep-title .resep-title-name .title-date {
-  font-size: 12px;
-  color: #8a8a8a;
-}
-
-.section-details-resep .details-resep-title .resep-title-creator a {
-  color: #29ae9b;
-}
-
-.section-details-resep .details-resep-title .resep-fork {
-  padding: 15px 0px;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: end;
-      -ms-flex-pack: end;
-          justify-content: flex-end;
-}
-
-.section-details-resep .details-resep-image .resep-image {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-}
-
-.section-details-resep .details-resep-image .resep-image img {
+.panel-sorting button {
   width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
 }
 
-.section-details-resep .details-resep-social .resep-social-count {
-  text-align: left;
+.product-col {
+  padding: 0px;
+  background: #FFFFFF;
+  border-radius: 4px;
+  margin: 10px 0px;
+  box-shadow: 0 1px 1px rgba(0, 0, 0, 0.3);
 }
 
-.section-details-resep .details-resep-social .resep-social-count span {
-  margin-right: 15px;
-}
-
-.section-details-resep .details-resep-social .resep-social-share {
-  text-align: right;
-}
-
-.section-details-resep .details-resep-social .resep-social-share span {
-  margin-right: 15px;
-}
-
-.section-details-resep .details-resep-social .resep-social-share a {
+.product-col .inner-product-col {
   color: #58585a;
 }
 
-.section-details-resep .details-resep-bahan .card-default a {
-  color: #2ab27b;
+.product-col .inner-product-col a .overlayhover {
+  -webkit-transition: 0.3s ease;
+  transition: 0.3s ease;
+  position: absolute;
+  font-size: 42px;
+  margin: 34% 35%;
+  opacity: 0 !important;
+}
+
+.product-col .inner-product-col a .image {
+  margin: 0px;
+}
+
+.product-col .inner-product-col a .image:hover {
+  -webkit-transition: 0.3s ease;
+  transition: 0.3s ease;
+  opacity: 0.5;
+}
+
+.product-col .inner-product-col a .image:hover .overlayhover {
+  -webkit-transition: 0.3s ease;
+  transition: 0.3s ease;
+  opacity: 1 !important;
+}
+
+.product-col .inner-product-col a .price-disc {
+  position: absolute;
+  top: 10%;
+  left: 10%;
+  border-radius: 100%;
+  background: #2ab27b;
+  padding: 15px;
+  color: white;
+  text-align: center;
+  font-size: 20px;
+}
+
+.product-col .inner-product-col a .price-disc sup {
+  font-size: 12px;
+}
+
+.product-col .inner-product-col .caption {
+  text-align: center;
+  margin: 5px 0px;
+}
+
+.product-col .inner-product-col .caption .voucher-title {
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+.product-col .inner-product-col .caption .price-new {
+  font-size: 18px;
+}
+
+.product-col .inner-product-col .caption .price-old {
+  font-size: 15px;
+  color: #dce0e0;
+  text-decoration: line-through;
+}
+
+.product-col .inner-product-col .btn-beli {
+  margin: 10px;
+  text-align: center;
+}
+
+.product-col .inner-product-col .btn-beli button {
+  width: 50%;
+  padding: 7px 0px;
+  color: #FFFFFF;
+  background: #2ab27b;
+  border-radius: 4px;
+  margin: 10px;
+}
+
+.product-col .inner-product-col .btn-beli button:hover {
+  -webkit-transition: 0.3s ease;
+  transition: 0.3s ease;
+  background: #2fc789;
+}
+
+.section-sorting,
+.section-list {
+  margin: 15px 0px;
 }

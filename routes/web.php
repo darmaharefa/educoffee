@@ -38,3 +38,15 @@ Route::get('/komparasi', function(){
 Route::get('/details-resep', function(){
 	return view('frontend.pages.detailsResep');
 });
+
+Route::get('/list-coffee', function(){
+	return view('frontend.pages.listCoffee');
+});
+
+Route::get('/list-mesin', function(){
+	return view('frontend.pages.listMesin');
+});
+
+Route::get('/list-resep', function(){
+	return view('frontend.pages.listResep');
+});

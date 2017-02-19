@@ -11639,22 +11639,6 @@ h3 {
   color: #ff5a5f;
 }
 
-.panel-default-header {
-  margin: 30px 0px 10px 0px;
-  color: #58585a;
-  text-align: center;
-  background: #FFFFFF;
-  text-transform: uppercase;
-  padding: 20px 0px;
-  border-top: 5px solid #29ae9b;
-  box-shadow: 0 5px 1px rgba(0, 0, 0, 0.2);
-}
-
-.panel-default-header h3 {
-  font-size: 16px;
-  margin: 0px !important;
-}
-
 .section-header {
   background-color: #29ae9b;
   padding: 15px 0px 10px 0px;
@@ -11853,79 +11837,67 @@ h3 {
   font-size: 15px;
 }
 
-.card-default {
-  color: #58585a;
+.panel-search {
+  padding: 10px 0px;
+  margin: 20px 0px;
+  border-bottom: 1px solid #dce0e0;
+}
+
+.panel-search button {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.card-resep-full {
   background: #FFFFFF;
-  padding: 10px 15px;
-  margin: 10px 0px;
+  border-left: 5px solid #29ae9b;
   border-radius: 4px;
   box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.15);
+  margin: 10px 0px;
 }
 
-.section-details-resep .details-resep-header,
-.section-details-resep .details-resep-title,
-.section-details-resep .details-resep-image,
-.section-details-resep .details-resep-social {
-  margin: 20px 0px;
+.card-resep-full .resep-full-images img {
+  width: 100%;
+  padding: 15px;
 }
 
-.section-details-resep .details-resep-title .resep-title-name {
+.card-resep-full .resep-full-details {
+  color: #58585a;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  padding: 20px;
+}
+
+.card-resep-full .resep-full-details .resep-title {
   font-size: 25px;
   font-weight: bold;
 }
 
-.section-details-resep .details-resep-title .resep-title-name .title-date {
+.card-resep-full .resep-full-details .resep-title .resep-date {
   font-size: 12px;
   color: #8a8a8a;
+  font-weight: 500;
 }
 
-.section-details-resep .details-resep-title .resep-title-creator a {
-  color: #29ae9b;
-}
-
-.section-details-resep .details-resep-title .resep-fork {
-  padding: 15px 0px;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: end;
-      -ms-flex-pack: end;
-          justify-content: flex-end;
-}
-
-.section-details-resep .details-resep-image .resep-image {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-}
-
-.section-details-resep .details-resep-image .resep-image img {
-  width: 100%;
-}
-
-.section-details-resep .details-resep-social .resep-social-count {
-  text-align: left;
-}
-
-.section-details-resep .details-resep-social .resep-social-count span {
+.card-resep-full .resep-full-details .resep-social-icon span {
   margin-right: 15px;
 }
 
-.section-details-resep .details-resep-social .resep-social-share {
-  text-align: right;
+.card-resep-full .resep-full-details span {
+  margin: 5px 0px;
 }
 
-.section-details-resep .details-resep-social .resep-social-share span {
-  margin-right: 15px;
-}
-
-.section-details-resep .details-resep-social .resep-social-share a {
-  color: #58585a;
-}
-
-.section-details-resep .details-resep-bahan .card-default a {
-  color: #2ab27b;
+.section-sorting,
+.section-list {
+  margin: 15px 0px;
 }

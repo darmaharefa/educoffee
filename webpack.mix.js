@@ -18,4 +18,7 @@ mix.js('resources/assets/js/app.js', 'public/js')
 	.sass('resources/assets/sass/frontend/komparasi.scss', 'public/css')
 	.sass('resources/assets/sass/frontend/details-coffee.scss', 'public/css')
 	.sass('resources/assets/sass/frontend/details-resep.scss', 'public/css')
+	.sass('resources/assets/sass/frontend/list-coffee.scss', 'public/css')
+	.sass('resources/assets/sass/frontend/list-mesin.scss', 'public/css')
+	.sass('resources/assets/sass/frontend/list-resep.scss', 'public/css')
 	.sass('resources/assets/sass/frontend/details-mesin.scss', 'public/css');

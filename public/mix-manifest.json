@@ -6,5 +6,8 @@
   "/css/komparasi.css": "/css/komparasi.css",
   "/css/details-coffee.css": "/css/details-coffee.css",
   "/css/details-resep.css": "/css/details-resep.css",
+  "/css/list-coffee.css": "/css/list-coffee.css",
+  "/css/list-mesin.css": "/css/list-mesin.css",
+  "/css/list-resep.css": "/css/list-resep.css",
   "/css/details-mesin.css": "/css/details-mesin.css"
 }
