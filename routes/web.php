@@ -50,3 +50,7 @@ Route::get('/list-mesin', function(){
 Route::get('/list-resep', function(){
 	return view('frontend.pages.listResep');
 });
+
+Route::group(['prefix' => 'admin'], function () {
+    Voyager::routes();
+});
