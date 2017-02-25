@@ -1,0 +1,54 @@
+@import "../core";
+@import "./component/static-component";
+@import "./component/panel-default-header";
+
+.section-profil {
+	.section-profil-header{
+
+	}
+
+	.section-profil-info {
+		text-align: center;
+		margin: 15px 0px;
+		.profil-info-image {
+			img {
+				width: 50%;
+			}
+
+		}
+
+		.profil-info-social{
+			display: flex;
+			flex-direction: row;
+			justify-content: space-between;
+			padding: 10px 30px;
+
+			a{
+				color: $hitam;
+			}
+		}
+
+		.profil-info-add-social{
+			text-align: left;
+			padding: 10px 30px;
+			a{
+				color: $main-color;
+				text-align: left;
+			}
+		}
+	
+
+		.profil-info-data{
+			table{
+				tr{
+					td:first-child{
+						text-align: center;
+					}
+					td{
+						text-align: left;
+					}
+				}
+			}
+		}
+	}
+}

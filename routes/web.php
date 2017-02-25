@@ -51,6 +51,10 @@ Route::get('/list-resep', function(){
 	return view('frontend.pages.listResep');
 });
 
+Route::get('/profil', function(){
+	return view('frontend.pages.profilpage');
+});
+
 Route::group(['prefix' => 'admin'], function () {
     Voyager::routes();
 });
