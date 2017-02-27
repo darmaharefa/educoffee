@@ -19,6 +19,9 @@
 	}
 
 	.nav-login{
+		a {
+			color: $putih;
+		}
 		.nav-login-dropdown {
 			.dropdown-profile {
 				list-style: none;
@@ -67,6 +70,9 @@
 		font-size: 15px;
 		margin-top: 20px;
 		text-align: center;
+		a {
+			color: $putih;
+		}
 		.fa{
 			font-size: 30px;
 			color: $brand-warning;

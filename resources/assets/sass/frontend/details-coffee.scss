@@ -58,3 +58,73 @@ body {
 	}
 }
 
+.section-cart-coffee{
+	.modal-cart{
+		@media (min-width: $breakpoint-tablet){
+			width: 900px;
+		}
+		.modal-content{
+			.modal-header {
+				border-bottom: 5px solid $main-color;
+			}
+			.modal-body{
+				thead{
+					text-align: center;
+					color: $grey-text;
+				}
+				tbody{
+					.cart-item-preview{
+						text-align: center;
+						img {
+							width: 100%;
+						}
+					}
+					.cart-item-name{
+						a{
+							font-weight: bold;
+							font-size: 20px;
+						}
+					}
+					.cart-item-price{
+						text-align: center;
+						.cart-item-price-new{
+							font-size: 15px;
+							color: $brand-danger;
+						}
+						.cart-item-price-old{
+							font-size: 12px;
+							text-decoration: line-through;
+						}
+					}
+					.cart-item-quantity{
+						width: 20%;
+						text-align: center;
+						input{
+							width: 30%;
+							padding-left: 5%;
+							border: 1px solid $grey-line;
+						}
+					}
+					.cart-item-subtotal{
+						text-align: center;
+						.cart-subtotal{
+							font-size: 15px;
+							color: $brand-danger;
+						}
+					}
+					.cart-item-delete{
+						.btn-cart-delete{
+							background: transparent;
+							font-size: 20px;
+							color: $hitam;
+						}
+					}
+				}
+
+			}
+			.modal-footer{
+
+			}
+		}
+	}
+}

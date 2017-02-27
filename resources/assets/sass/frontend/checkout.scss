@@ -1,0 +1,84 @@
+@import "../core";
+
+.section-header-checkout{
+
+}
+
+.section-content-checkout{
+	.form-checkout{
+		.form-group{
+			margin-left: 5px;
+			margin-right: 5px;
+			input{
+				border: 1px solid $grey-line;
+			}
+			input:focus{
+				border: 1px solid $main-color;
+			}
+			select{
+				border: 1px solid $grey-line;
+				.option-label{
+					color: $grey-text;
+				}
+			}
+			.required-input{
+				color: $brand-danger;
+			}
+		}
+	}
+
+	.finish-checkout{
+		table{
+			.cart-item-bottom{
+				border-bottom: 1px solid $grey-line;
+			}
+			td{
+				border: 0px;
+			}
+			.cart-item-preview{
+				vertical-align: middle;
+			}
+
+			.cart-item-name{
+				width: 45%;
+				font-size: 20px;
+				.cart-item-brew-method{
+					font-size: 15px;
+				}
+			}
+
+			.cart-item-subtotal{
+				font-size: 17px;
+				color: $brand-danger;
+				vertical-align: middle;
+				.cart-item-price-old{
+					font-size: 15px;
+					text-decoration: line-through;
+					color: $grey-text;
+				}
+			}
+			.cart-item-quantity{
+				input{
+					width: 30%;
+				}
+				color: $grey-text;
+
+				button{
+					background: transparent;
+					color: $main-color;
+				}
+			}
+
+			.cart-item-total{
+				td{
+					font-size: 20px;
+				}
+			}
+		}
+	}
+}
+
+.section-footer-checkout{
+	text-align: center;
+	border-top: 1px solid $grey-line;
+}
