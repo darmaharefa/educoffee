@@ -4,8 +4,8 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "f56a49cacfe069f0a7043b4f6d3c23c1",
-    "content-hash": "6fbd23f3f54e2a9edb7d671556598575",
+    "hash": "42be14312ffd61016cb057590f4b95a7",
+    "content-hash": "c29f38bc3e885d631b3412ea62ebdd5a",
     "packages": [
         {
             "name": "arrilot/laravel-widgets",
@@ -56,6 +56,60 @@
                 "widgets"
             ],
             "time": "2017-01-26 18:04:00"
+        },
+        {
+            "name": "barryvdh/laravel-debugbar",
+            "version": "v2.3.2",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/barryvdh/laravel-debugbar.git",
+                "reference": "24e4f0261e352d3fd86d0447791b56ae49398674"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/barryvdh/laravel-debugbar/zipball/24e4f0261e352d3fd86d0447791b56ae49398674",
+                "reference": "24e4f0261e352d3fd86d0447791b56ae49398674",
+                "shasum": ""
+            },
+            "require": {
+                "illuminate/support": "5.1.*|5.2.*|5.3.*|5.4.*",
+                "maximebf/debugbar": "~1.13.0",
+                "php": ">=5.5.9",
+                "symfony/finder": "~2.7|~3.0"
+            },
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "2.3-dev"
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "Barryvdh\\Debugbar\\": "src/"
+                },
+                "files": [
+                    "src/helpers.php"
+                ]
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Barry vd. Heuvel",
+                    "email": "barryvdh@gmail.com"
+                }
+            ],
+            "description": "PHP Debugbar integration for Laravel",
+            "keywords": [
+                "debug",
+                "debugbar",
+                "laravel",
+                "profiler",
+                "webprofiler"
+            ],
+            "time": "2017-01-19 08:19:49"
         },
         {
             "name": "dnoegel/php-xdg-base-dir",
@@ -1130,6 +1184,67 @@
                 "storage"
             ],
             "time": "2017-02-09 11:33:58"
+        },
+        {
+            "name": "maximebf/debugbar",
+            "version": "1.13.1",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/maximebf/php-debugbar.git",
+                "reference": "afee79a236348e39a44cb837106b7c5b4897ac2a"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/maximebf/php-debugbar/zipball/afee79a236348e39a44cb837106b7c5b4897ac2a",
+                "reference": "afee79a236348e39a44cb837106b7c5b4897ac2a",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.3.0",
+                "psr/log": "^1.0",
+                "symfony/var-dumper": "^2.6|^3.0"
+            },
+            "require-dev": {
+                "phpunit/phpunit": "^4.0|^5.0"
+            },
+            "suggest": {
+                "kriswallsmith/assetic": "The best way to manage assets",
+                "monolog/monolog": "Log using Monolog",
+                "predis/predis": "Redis storage"
+            },
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "1.13-dev"
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "DebugBar\\": "src/DebugBar/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Maxime Bouroumeau-Fuseau",
+                    "email": "maxime.bouroumeau@gmail.com",
+                    "homepage": "http://maximebf.com"
+                },
+                {
+                    "name": "Barry vd. Heuvel",
+                    "email": "barryvdh@gmail.com"
+                }
+            ],
+            "description": "Debug bar in the browser for php application",
+            "homepage": "https://github.com/maximebf/php-debugbar",
+            "keywords": [
+                "debug",
+                "debugbar"
+            ],
+            "time": "2017-01-05 08:46:19"
         },
         {
             "name": "monolog/monolog",
@@ -2440,16 +2555,16 @@
         },
         {
             "name": "tcg/voyager",
-            "version": "v0.11.1",
+            "version": "v0.11.3",
             "source": {
                 "type": "git",
                 "url": "https://github.com/the-control-group/voyager.git",
-                "reference": "9e020cee3220d0de222155e4c0dd2ad1ba2932c0"
+                "reference": "76fd54a66ef2738398ffd7ef900ffc1ff67f5e26"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/the-control-group/voyager/zipball/9e020cee3220d0de222155e4c0dd2ad1ba2932c0",
-                "reference": "9e020cee3220d0de222155e4c0dd2ad1ba2932c0",
+                "url": "https://api.github.com/repos/the-control-group/voyager/zipball/76fd54a66ef2738398ffd7ef900ffc1ff67f5e26",
+                "reference": "76fd54a66ef2738398ffd7ef900ffc1ff67f5e26",
                 "shasum": ""
             },
             "require": {
@@ -2461,6 +2576,7 @@
                 "league/flysystem": "~1.0.35"
             },
             "require-dev": {
+                "codeclimate/php-test-reporter": "dev-master",
                 "laravel/browser-kit-testing": "~1.0.0",
                 "laravel/framework": "~5.3.8|5.4.*",
                 "orchestra/database": "3.3.*|3.4.x-dev",
@@ -2492,7 +2608,7 @@
                 "laravel",
                 "panel"
             ],
-            "time": "2017-02-19 13:52:35"
+            "time": "2017-02-25 10:56:19"
         },
         {
             "name": "tijsverkoyen/css-to-inline-styles",

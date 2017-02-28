@@ -42,7 +42,7 @@ return [
     */
 
     'models' => [
-        //'namespace' => 'App\\',
+        'namespace' => 'App\\',
     ],
 
     /*
@@ -102,10 +102,10 @@ return [
             'image' => '/images/widget-backgrounds/02.png',
         ],
         [
-            'name'  => 'Post',
+            'name'  => 'Product',
             'icon'  => 'voyager-news',
-            'model' => TCG\Voyager\Models\Post::class,
-            'url'   => 'admin/posts',
+            'model' => App\Product::class,
+            'url'   => 'admin/product',
             'image' => '/images/widget-backgrounds/03.png',
         ],
         [
