@@ -8,16 +8,10 @@
 		<link rel="stylesheet" href="/css/mightyslider.css">
 	</head>
 	<body >
-
-		@include('frontend.component.header')
-
-		@include('frontend.component.navbar')
-			
+	
 		@yield('content', '')
 
-		@include('frontend.component.footer')
-		
-		{{-- <script src="/js/app.js"></script> --}}
+
 		<script src="/js/jquery.min.js"></script>
 		<script src="/js/bootstrap.min.js"></script>
 		<script src="/js/details-slider.js"></script>
@@ -30,6 +24,8 @@
 		</script>
 		
 		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+
+		@yield('script')
 
 	</body>
 </html>

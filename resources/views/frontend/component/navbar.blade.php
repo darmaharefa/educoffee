@@ -3,7 +3,7 @@
         <div class="row">
             <div class="col-md-12">
                 <!-- Main Menu Starts -->
-                <nav id="main-menu" class="navbar navbar-default    " role="navigation">
+                <nav id="main-menu" class="navbar navbar-default" role="navigation">
                     <!-- Nav Header Starts -->
                     <div class="container-fluid container-menu">
                         <div class="navbar-header">
@@ -90,11 +90,72 @@
                                 </li>
                                 <li class="dropdown">
                                     <a href="#" class="dropdown-toggle" data-toggle="dropdown" data-hover="dropdown" data-delay="10">Mesin Kopi</a>
-                                    <div class="dropdown-menu dropdown-submenu">
+                                     <div class="dropdown-menu ">
                                         <div class="dropdown-inner">
-                                            <ul class="list-unstyled">
-                                                <li><a href="">Semua Mesin Kopi</a></li>
-                                            </ul>
+                                           <div class="submenu">
+                                                <div class="row">
+                                                    <div class="col-sm-4 submenu-category">
+                                                        <div class="media-fa">
+                                                            <a href="">
+                                                                <div class="media-fa-left">
+                                                                    <i class="fa fa-coffee"></i>
+                                                                </div>
+                                                                <div class="submenu-label">Mesin Kopi Luar</div>
+                                                            </a>
+                                                        </div>
+                                                    </div>
+                                                    <div class="col-sm-4 submenu-category">
+                                                         <div class="media-fa">
+                                                            <a href="">
+                                                                <div class="media-fa-left">
+                                                                    <i class="fa fa-glass"></i>
+                                                                </div>
+                                                                <div class="submenu-label">Mesin Kopi Tengah</div>
+                                                            </a>
+                                                        </div>
+                                                    </div>
+                                                     <div class="col-sm-4 submenu-category">
+                                                        <div class="media-fa">
+                                                            <a href="">
+                                                                <div class="media-fa-left">
+                                                                    <i class="fa fa-beer"></i>
+                                                                </div>
+                                                                <div class="submenu-label">Mesin Kopi Dalam</div>
+                                                            </a>
+                                                        </div>
+                                                    </div>
+                                                    <div class="col-sm-4 submenu-category">
+                                                        <div class="media-fa">
+                                                            <a href="">
+                                                                <div class="media-fa-left">
+                                                                    <i class="fa fa-coffee"></i>
+                                                                </div>
+                                                                <div class="submenu-label">Mesin Kopi Luar</div>
+                                                            </a>
+                                                        </div>
+                                                    </div>
+                                                    <div class="col-sm-4 submenu-category">
+                                                         <div class="media-fa">
+                                                            <a href="">
+                                                                <div class="media-fa-left">
+                                                                    <i class="fa fa-glass"></i>
+                                                                </div>
+                                                                <div class="submenu-label">Mesin Kopi Tengah</div>
+                                                            </a>
+                                                        </div>
+                                                    </div>
+                                                     <div class="col-sm-4 submenu-category">
+                                                        <div class="media-fa">
+                                                            <a href="">
+                                                                <div class="media-fa-left">
+                                                                    <i class="fa fa-beer"></i>
+                                                                </div>
+                                                                <div class="submenu-label">Mesin Kopi Dalam</div>
+                                                            </a>
+                                                        </div>
+                                                    </div>
+                                               </div>
+                                           </div>
                                         </div>
                                     </div>
                                 </li>

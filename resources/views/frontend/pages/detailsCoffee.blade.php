@@ -155,7 +155,7 @@
 										<div class="coffee-button">
 											<div class="row">
 												<div class="col-md-12">
-													<button type="button" class="btn btn-block btn-success" id="addtoCart">
+													<button type="button" class="btn btn-block btn-success" data-toggle="modal" data-target="#addToChart">
 														<i class="fa fa-shopping-cart"></i> 
 														Beli Sekarang
 													</button>
@@ -462,6 +462,71 @@
       	</div>
       </div>
 	</div>
+
+	<div class="section-cart-coffee">
+		<div class="modal fade" id="addToChart">
+			<div class="modal-dialog modal-cart">
+				<div class="modal-content">
+					<div class="modal-header">
+						<button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+						<h3 class="modal-title">Keranjang Belanja(1)</h3>
+					</div>
+					<div class="modal-body">
+						<div class="table-responsive">
+							<table class="table table-cart">
+								<thead>
+									<tr>
+										<td colspan="2">&nbsp;</td>
+										<td>
+											<p>Harga</p>
+										</td>
+										<td class="cart-item-quantity">
+											<p>Jumlah</p>
+										</td>
+										<td>
+											<p>Subtotal</p>
+										</td>
+										<td>&nbsp;</td>
+									</tr>
+								</thead>
+								<tbody>
+									<tr>
+										<td class="cart-item-preview">
+											<img src="/images/coffee/example12.jpg" alt="gambar-product">
+										</td>
+										<td class="cart-item-name">
+											<a href="/details-coffee">Coffee Nias 250g</a>
+											<p class="cart-item-brew-method">Espresso</p>
+										</td>
+										<td class="cart-item-price">
+											<p class="cart-item-price-new">Rp. 250.000</p>
+											<p class="cart-item-price-old">Rp. 500.000</p>
+										</td>
+										<td class="cart-item-quantity">
+											<input type="number" min="0" value="1">
+										</td>
+										<td class="cart-item-subtotal">
+											<p class="cart-subtotal">Rp. 500.000</p>
+										</td>
+										<td class="cart-item-delete">
+											<button class="btn btn-cart-delete">
+												<i class="fa fa-times-circle"></i>
+											</button>
+										</td>
+									</tr>
+								</tbody>
+							</table>
+						</div>
+					</div>
+					<div class="modal-footer">
+						<button type="submit" class="btn" data-dismiss="modal">Lanjutkan Belanja</button>
+						<button type="submit" class="btn btn-success">Lanjutkan Pembayaran</button>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	
 
 
 @endsection

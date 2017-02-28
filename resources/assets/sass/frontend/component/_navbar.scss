@@ -1,5 +1,5 @@
 .section-menu{
-	background-color : $hitam;	
+	background-color : $hitam;
 	nav { 
 		margin-bottom: 0px !important;
 		li{
@@ -7,6 +7,9 @@
 		}
 		.submenu {
 			width: 700px;
+			a{
+				color: $putih;
+			}
 			.row {
 				margin-left: 0px;
 				margin-right: 0px;

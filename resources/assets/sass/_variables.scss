@@ -16,7 +16,7 @@ $body-bg-card				: #edeff0;
 // Body
 $body-bg					: $body-bg-card !default;
 $text-color					: $hitam !default;
-$link-color					: $putih !default;
+$link-color					: $main-color !default;
 
 // // Border
 // $laravel-border-color	: darken($body-bg, 10%);
@@ -86,4 +86,7 @@ $border-radius-small	: 0px !default;
 // // Links
 $link-hover-color		: none !default;
 $link-hover-decoration	: none !default;
+
+$breakpoint-default: 992px;
+$breakpoint-tablet: 768px;
 
