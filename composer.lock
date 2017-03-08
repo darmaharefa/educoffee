@@ -4,8 +4,8 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "42be14312ffd61016cb057590f4b95a7",
-    "content-hash": "c29f38bc3e885d631b3412ea62ebdd5a",
+    "hash": "a09d97cb5fb23f1892a969d04c81bea1",
+    "content-hash": "37e57287904d5330e673372523731794",
     "packages": [
         {
             "name": "arrilot/laravel-widgets",
@@ -655,6 +655,56 @@
                 "parser"
             ],
             "time": "2016-11-02 15:56:58"
+        },
+        {
+            "name": "gloudemans/shoppingcart",
+            "version": "2.3.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/Crinsane/LaravelShoppingcart.git",
+                "reference": "195cc095f53c66b60afaf0753295bc9c6b2773c3"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/Crinsane/LaravelShoppingcart/zipball/195cc095f53c66b60afaf0753295bc9c6b2773c3",
+                "reference": "195cc095f53c66b60afaf0753295bc9c6b2773c3",
+                "shasum": ""
+            },
+            "require": {
+                "illuminate/events": "5.1.*|5.2.*|5.3.*|5.4.*",
+                "illuminate/session": "5.1.*|5.2.*|5.3.*|5.4.*",
+                "illuminate/support": "5.1.*|5.2.*|5.3.*|5.4.*"
+            },
+            "require-dev": {
+                "mockery/mockery": "~0.9.0",
+                "orchestra/testbench": "~3.0",
+                "phpunit/phpunit": "~4.0"
+            },
+            "suggest": {
+                "gloudemans/notify": "Simple flash notifications for Laravel"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "Gloudemans\\Shoppingcart\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Rob Gloudemans",
+                    "email": "info@robgloudemans.nl"
+                }
+            ],
+            "description": "Laravel Shoppingcart",
+            "keywords": [
+                "laravel",
+                "shoppingcart"
+            ],
+            "time": "2017-01-25 09:56:35"
         },
         {
             "name": "guzzlehttp/psr7",
@@ -2555,16 +2605,16 @@
         },
         {
             "name": "tcg/voyager",
-            "version": "v0.11.3",
+            "version": "v0.11.4",
             "source": {
                 "type": "git",
                 "url": "https://github.com/the-control-group/voyager.git",
-                "reference": "76fd54a66ef2738398ffd7ef900ffc1ff67f5e26"
+                "reference": "4f48d7144f720ff5105da5ac63a51bf2166b44d0"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/the-control-group/voyager/zipball/76fd54a66ef2738398ffd7ef900ffc1ff67f5e26",
-                "reference": "76fd54a66ef2738398ffd7ef900ffc1ff67f5e26",
+                "url": "https://api.github.com/repos/the-control-group/voyager/zipball/4f48d7144f720ff5105da5ac63a51bf2166b44d0",
+                "reference": "4f48d7144f720ff5105da5ac63a51bf2166b44d0",
                 "shasum": ""
             },
             "require": {
@@ -2583,7 +2633,7 @@
                 "orchestra/testbench": "3.3.*|3.4.x-dev",
                 "orchestra/testbench-browser-kit": "~3.3.0|~3.4.0",
                 "phpunit/phpcov": "~3.0",
-                "phpunit/phpunit": "~5.0"
+                "phpunit/phpunit": "~5.7.14"
             },
             "type": "library",
             "autoload": {
@@ -2608,7 +2658,7 @@
                 "laravel",
                 "panel"
             ],
-            "time": "2017-02-25 10:56:19"
+            "time": "2017-03-02 20:33:01"
         },
         {
             "name": "tijsverkoyen/css-to-inline-styles",
