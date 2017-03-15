@@ -4,8 +4,8 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "a09d97cb5fb23f1892a969d04c81bea1",
-    "content-hash": "37e57287904d5330e673372523731794",
+    "hash": "04f5277ca1a0c73516891e00659e0bbe",
+    "content-hash": "b071563607eae8000937c01a1f1e148c",
     "packages": [
         {
             "name": "arrilot/laravel-widgets",
@@ -1151,6 +1151,60 @@
                 "psysh"
             ],
             "time": "2016-12-30 18:13:17"
+        },
+        {
+            "name": "laravelcollective/html",
+            "version": "v5.4.1",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/LaravelCollective/html.git",
+                "reference": "7570f25d58a00fd6909c0563808590f9cdb14d47"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/LaravelCollective/html/zipball/7570f25d58a00fd6909c0563808590f9cdb14d47",
+                "reference": "7570f25d58a00fd6909c0563808590f9cdb14d47",
+                "shasum": ""
+            },
+            "require": {
+                "illuminate/http": "5.4.*",
+                "illuminate/routing": "5.4.*",
+                "illuminate/session": "5.4.*",
+                "illuminate/support": "5.4.*",
+                "illuminate/view": "5.4.*",
+                "php": ">=5.6.4"
+            },
+            "require-dev": {
+                "illuminate/database": "5.4.*",
+                "mockery/mockery": "~0.9.4",
+                "phpunit/phpunit": "~5.4"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "Collective\\Html\\": "src/"
+                },
+                "files": [
+                    "src/helpers.php"
+                ]
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Taylor Otwell",
+                    "email": "taylorotwell@gmail.com"
+                },
+                {
+                    "name": "Adam Engebretson",
+                    "email": "adam@laravelcollective.com"
+                }
+            ],
+            "description": "HTML and Form Builders for the Laravel Framework",
+            "homepage": "http://laravelcollective.com",
+            "time": "2017-01-26 19:27:05"
         },
         {
             "name": "league/flysystem",
@@ -2605,16 +2659,16 @@
         },
         {
             "name": "tcg/voyager",
-            "version": "v0.11.4",
+            "version": "v0.11.5",
             "source": {
                 "type": "git",
                 "url": "https://github.com/the-control-group/voyager.git",
-                "reference": "4f48d7144f720ff5105da5ac63a51bf2166b44d0"
+                "reference": "e7d8d3b9ccd6fb3d13978cf610ad9690f807cf4a"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/the-control-group/voyager/zipball/4f48d7144f720ff5105da5ac63a51bf2166b44d0",
-                "reference": "4f48d7144f720ff5105da5ac63a51bf2166b44d0",
+                "url": "https://api.github.com/repos/the-control-group/voyager/zipball/e7d8d3b9ccd6fb3d13978cf610ad9690f807cf4a",
+                "reference": "e7d8d3b9ccd6fb3d13978cf610ad9690f807cf4a",
                 "shasum": ""
             },
             "require": {
@@ -2658,7 +2712,7 @@
                 "laravel",
                 "panel"
             ],
-            "time": "2017-03-02 20:33:01"
+            "time": "2017-03-08 21:18:19"
         },
         {
             "name": "tijsverkoyen/css-to-inline-styles",
